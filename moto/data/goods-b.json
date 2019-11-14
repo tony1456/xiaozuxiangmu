@@ -1,0 +1,50 @@
+[
+    {
+        "imgUrlL": [
+            "img/7pluls/7plusspxqy/h1-m.png",
+            "img/7pluls/7plusspxqy/h2-m.png",
+            "img/7pluls/7plusspxqy/h3-m.png",
+            "img/7pluls/7plusspxqy/h4-m.png"
+        ],
+        "imgUrlS": [
+            "img/7pluls/7plusspxqy/h1.png",
+            "img/7pluls/7plusspxqy/h2.png",
+            "img/7pluls/7plusspxqy/h3.png",
+            "img/7pluls/7plusspxqy/h4.png"
+        ],
+        "guige": [
+            "4GB+128GB",
+            "6GB+128GB"
+        ],
+        "titles": "中国红",
+        "price": [
+            "￥2099",
+            "￥2399"
+        ],
+        "id": "a"
+    },
+    {
+        "imgUrlL": [
+            "img/7pluls/7plusspxqy/sl1.png",
+            "img/7pluls/7plusspxqy/sl2.png",
+            "img/7pluls/7plusspxqy/ls3.png",
+            "img/7pluls/7plusspxqy/ls4.png"
+        ],
+        "imgUrlS": [
+            "img/7pluls/7plusspxqy/ls1x.png",
+            "img/7pluls/7plusspxqy/ls2x.png",
+            "img/7pluls/7plusspxqy/ls3x.png",
+            "img/7pluls/7plusspxqy/ls4x.png"
+        ],
+        "guige": [
+            "4GB+128GB",
+            "6GB+128GB"
+        ],
+        "titles": "深海蓝",
+        "price": [
+            "￥2099",
+            "￥2399"
+        ],
+        "id": "b"
+    }
+]

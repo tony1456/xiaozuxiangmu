@@ -1,0 +1,423 @@
+html,body{
+    background: #f1f1f1;
+}
+
+.wrapper-b .product-b{
+    margin:36px 0 0;
+    height:692px;
+    border:1px solid #e4e4e4;
+    background-color: #fff;
+}
+.product-b .product-b-pictures{
+    padding:48px 0;
+    float: left;
+    width:490px;
+    margin-left:34px;
+    position: relative;
+}
+.product-b-pictures .product-b-box{
+    position: relative;
+    top:0;
+}
+.product-b-box .slider-b-box{
+    position: relative;
+    width:430px;
+}
+
+.slider-b-box .img-b-box{
+    position: relative;
+    width:430px;
+    height:430px;
+    overflow: hidden;
+}
+.img-b-box .loading-b{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    margin:0;
+    background:#fff url(../img/7pluls/loading.gif) no-repeat center center;
+}
+.img-b-box img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    vertical-align: top;
+    width:430px;
+    height:430px;
+}
+.img-b-box #middleImg1{
+    display: block;
+}
+.img-b-box #middleImg2, .img-b-box #middleImg3,.img-b-box #middleImg4{
+    display: none;
+}
+
+.bx-page-b{
+    width:445px;
+    height:96px;
+    margin:68px auto 0;
+    overflow: hidden;
+}
+.bx-page-b li{
+    float: left;
+    width:92px;
+    height:92px;
+    overflow: hidden;
+    margin:0 15px 0 0;
+    border:2px solid #fff;
+    cursor: pointer;
+}
+.bx-page-b li img{
+    width:64px;
+    height:64px;
+    display: block;
+    margin:14px auto 0;
+}
+
+/* 商品价格 */
+.goods-txt-b{
+    margin-top:48px;
+    padding-bottom:48px;
+    width:638px;
+    float: left;
+}
+.goods-txt-b .goods_title-b{
+    font-size:26px;
+    line-height: 36px;
+    font-weight: normal;
+}
+.goods-txt-b .goods_title-b .nums-b,.goods-txt-b .goods_title-b .fonts-b{
+    font-size:26px;
+}
+.goods-txt-b .sale-b{
+    padding:10px 10px 0 0;
+    line-height: 20px;
+    color:#666;
+}
+.goods-txt-b .sale-b a{
+    color:#e3393c;
+    font-size:12px;
+}
+.goods-txt-b .sale-b .sale-jbl{
+    color:rgb(255, 0, 0);
+    font-size:13px;
+}
+.goods-txt-b .sale-parameter-b{
+    margin:15px 0 0;
+    padding:5px 0 10px 10px;
+    background-color: #f5f5f5;
+    color:#666;
+}
+.sale-parameter-b .item-b{
+    line-height: 32px;
+    vertical-align: top;
+}
+.item-b .sale-t-b{
+    float: left;
+    width:65px;
+}
+.item-b .sale-t-b .space-b{
+    width:12px;
+    display: inline-block;
+}
+.item-b .price-b{
+    position: relative;
+    font-size:20px;
+    color:#e3393c;
+    height:32px;
+    overflow: hidden;
+}
+.item-b .price-b2{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.item-b .price-b span{
+    float: left;
+    font-size:22px;
+}
+.item-b .gifts-list-b{
+    float: left;
+    position: relative;
+    padding-bottom: 5px;
+}
+.gifts-list-b li{
+    margin-top:5px;
+    height:22px;
+    line-height: 22px;
+    vertical-align: top;
+}
+.gifts-list-b li a{
+    color:#666;
+}
+.gifts-list-b li img{
+    margin-right: 12px;
+    width:22px;
+    height:22px;
+    vertical-align: top;
+}
+.item-b .support-b{
+    padding-top:5px;
+    line-height: 20px;
+}
+.item-b .support-b span{
+    float: left;
+    margin-right: 30px;
+}
+.item-b .support-b span img{
+    width:20px;
+    height:20px;
+    margin-right:6px;
+    vertical-align: middle;
+}
+.item-b .sale-t-b{
+    font-size:12px;
+}
+.item-b .gifts-list-b li a{
+    font-size:12px;
+}
+.item-b .support-b span{
+    font-size:12px;
+}
+.pro-parameter-b .title-b{
+    padding-top:10px;
+    font-size:14px;
+    line-height: 28px;
+    font-weight: normal;
+}
+.pro-parameter-b .specattr-sel-b{
+    position: relative;
+    margin-left: -10px;
+}
+.specattr-sel-b .selected{
+    border-color:#10bad1;
+    color:#121212;
+}
+.specattr-sel-b li{
+    position: relative;
+    float: left;
+    width:312px;
+    margin:10px 0 0 10px;
+    height:38px;
+    line-height: 38px;
+    font-size:13px;
+    color:#666;
+    text-align: center;
+    border:1px solid #dfdfdf;
+    cursor: pointer;
+}
+.sku-b .sel-icon-b{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:17px;
+    height:17px;
+    background:url(../img/7pluls/dagou.png) no-repeat;
+    display: none;
+}
+.specattr-sel-b .selected .sel-icon-b{
+    display: block;
+}
+.content-b .pro-parameter-b .product-num-b{
+    position: relative;
+    height:47px;
+    margin-top:10px;
+}
+.product-num-b .disable{
+    cursor: no-drop;
+    border-color:#ddd;
+}
+.product-num-b .minus-b{
+    top:0;
+    cursor: pointer;
+}
+.pro-parameter-b .minus-b, .pro-parameter-b .plus-b{
+    position: absolute;
+    left:51px;
+    width:20px;
+    height:22px;
+    border:1px solid #ccc;
+    font-size:14px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+.product-num-b .plus-b{
+    bottom: 0;
+    cursor: pointer;
+}
+.pro-parameter-b .num-ipt-b{
+    width:50px;
+    height:45px;
+    outline: 0 none;
+    border:1px solid #ccc;
+    text-align: center;
+    font-size:14px;
+    font-family: arial;
+    line-height: 43px;
+    vertical-align: middle;
+}
+.pro-parameter-b .tishi-b{
+    position: absolute;
+    top:4px;
+    left:85px;
+    color:#10bad1;
+    font-size:12px;
+    width:200px;
+    height:40px;
+    background:#ddd;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+}
+
+.content-b .buy-btn-b .btn-cart-b,.product-tab-b .btn-cart-b{
+    display: block;
+    margin:15px 0;
+    height:48px;
+    width:180px;
+    background: #10bad1;
+    font-size:14px;
+    text-align: center;
+    line-height: 47px;
+    color:#fff;
+    cursor: pointer;
+}
+.content-b .buy-btn-b .btn-cart-b:hover{
+    background:rgba(16,186,209,0.8);
+}
+
+/* 商品介绍 */
+.goods-nav-b{
+    margin-top:20px;
+    margin-bottom: 20px;
+    border:1px solid #e4e4e4;
+    background: #fff;
+}
+/* 导航 */
+.goods-nav-b .header-box-b{
+    height:63px;
+    width:1198px;
+    position: relative;
+    z-index: 10000;
+}
+.header-box-b .header-b{
+    height:62px;
+    border-bottom: 1px solid #e4e4e4;
+    width:1198px;
+}
+.header-b .product-tab-b{
+    position: relative;
+    padding:16px 0 0 6px;
+    line-height: 30px;
+    margin: 0 auto;
+    width: 1198px;
+}
+.product-tab-b span{
+    display: inline-block;
+    padding:0 30px;
+    font-size:18px;
+    cursor: pointer;
+    color:#121212;
+    border-left:1px solid #e4e4e4;
+}
+.product-tab-b .goods-cur-b{
+    border:0;
+}
+.product-tab-b .style-b{
+    color:#10bad1;
+}
+.product-tab-b .btn-b{
+    position: absolute;
+    top:-6px;
+    right:16px;
+    display: none;
+    cursor: pointer;
+}
+.product-tab-b .btn-b:hover{
+    background:rgba(16,186,209,0.8);
+}
+
+/* 商品详情 */
+.goods-nav-b .goods-images-b{
+    display: block;
+}
+
+/* 技术规格 */
+.guige-b-box{
+    display: none;
+}
+.guige-b-box .guige-b .guige-items-b .guige-item-b{
+    position: relative;
+    min-height: 24px;
+    padding:30px 0 30px 422px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    border-top:1px solid #e4e4e4;
+}
+.guige-items-b .item-title-b{
+    position: absolute;
+    top:30px;
+    left:91px;
+    font:normal 16px 'Microsoft';
+}
+.guige-items-b .color-b li{
+    float: left;
+    margin-right: 70px;
+    text-align: center;
+}
+.color-b li img{
+    vertical-align: top;
+}
+.color-b li span{
+    display: block;
+    margin-top:23px;
+    font-size:14px;
+    line-height: 18px;
+    text-align:center;
+}
+
+.position-b{
+    height:130px;
+    width:60px;
+    position: fixed;
+    left:50%;
+    bottom:98px;
+    margin-left:610px;
+    z-index: 10;
+}
+.position-b a{
+    display: block;
+    width:60px;
+    height:60px;
+    margin-top:10px;
+    background-image: url(../img/7pluls/7plusspxqy/db.png);
+    background-repeat:no-repeat;
+    font-size:0;
+    transition: all .2s linear;
+}
+.position-b .goTop-b{
+    width:60px;
+    height:60px;
+    margin-top:10px;
+    background-image: url(../img/7pluls/gotop.png);
+    background-repeat:no-repeat;
+    font-size:0;
+    transition: all .2s linear;
+    cursor: pointer;
+    display: none;
+    
+}
+.position-b a:hover{
+    background-image: url(../img/7pluls/7plusspxqy/zx1.png);
+    transition: all .2s linear;
+}
+.position-b .goTop-b:hover{
+    background-image: url(../img/7pluls/7plusspxqy/db1.png);
+    transition: all .2s linear;
+}

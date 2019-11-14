@@ -1,0 +1,48 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, figure, section {
+	margin: 0;
+	/* 外边距清零 */
+	padding: 0;
+	/* 内边距清零 */
+}
+
+input {
+	outline: none;
+}
+
+body, html {
+	font: 12px "微软雅黑", Arial;
+	/* 设置全局基础字号 */
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+	font-weight: normal;
+	/* 清除文字加粗 */
+	font-size: 100%;
+}
+
+i, em {
+	font-style: normal;
+	/* 清除倾斜 */
+}
+
+a {
+	text-decoration: none;
+	/* 清除文字样式 */
+}
+
+li {
+	list-style: none;
+	/* 清除列表项目符号 */
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:after {
+	content: ' ';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

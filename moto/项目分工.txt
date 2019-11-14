@@ -1,0 +1,22 @@
+小组分工:
+1.注册,登陆/购物车/商品详情页/后端接口(含头尾);https://www.motorola.com.cn/store/234.html/彭博
+
+2.7pluls概述页/参数页,z3参数页/美图页;//骆鹏https://www.motorola.com.cn/motog7plus/overview/index.html
+ https://www.motorola.com.cn/motog7plus/specs/index.html
+
+ https://www.motorola.com.cn/motoz3/specs/index.html
+ https://www.motorola.com.cn/motoz3/gallery/index.html
+   
+3. 首页/z3概述页/服务与技术页/振宇
+https://www.motorola.com.cn/
+https://www.motorola.com.cn/motoz3/overview/index.html
+https://www.motorola.com.cn/service/
+
+
+4.魔音页 /魔眼页/watchX页/曾强
+https://www.motorola.com.cn/motomods/hasselbladzoom/index.html
+https://www.motorola.com.cn/lenovowatchx/overview/index.html
+https://www.motorola.com.cn/motomods/jblspeaker/index.html
+ 
+ 
+ 
